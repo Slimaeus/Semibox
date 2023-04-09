@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{69FDCC2C-2C0F-49C7-9830-B0938534ECE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semibox.Identity.API", "Semibox.Identity.API\Semibox.Identity.API.csproj", "{CA6848E2-FE96-4154-A484-F14DCF03A0C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semibox.Identity.Domain", "Semibox.Identity.Domain\Semibox.Identity.Domain.csproj", "{FFC06C3B-1A3C-4333-A620-D87D7E6F04A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semibox.Identity.Persistence", "Semibox.Identity.Persistence\Semibox.Identity.Persistence.csproj", "{4D4FDDC7-28CD-4369-ABBB-78026F7F02FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semibox.Identity.Application", "Semibox.Identity.Application\Semibox.Identity.Application.csproj", "{E17B5B60-23E0-4E48-B3A7-CB5B2C8DDE04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semibox.Identity.Infrastructure", "Semibox.Identity.Infrastructure\Semibox.Identity.Infrastructure.csproj", "{B9DD87CC-DCE6-44F2-9655-0FD3458035B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StatisticService", "StatisticService", "{015B6184-1371-4637-A77D-AF688AC10383}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semibox.StatisticService.API", "Semibox.StatisticService.API\Semibox.StatisticService.API.csproj", "{9E2EE28E-14C1-4976-B138-E704CFF781C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semibox.StatisticService.Persistence", "Semibox.StatisticService.Persistence\Semibox.StatisticService.Persistence.csproj", "{ED0F5A8B-D563-4569-8EC7-00E5742FA69C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semibox.StatisticService.Domain", "Semibox.StatisticService.Domain\Semibox.StatisticService.Domain.csproj", "{7A4C9C7A-4695-4BD3-AF9B-F182F01F23F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semibox.StatisticService.Application", "Semibox.StatisticService.Application\Semibox.StatisticService.Application.csproj", "{F0A89E5B-C8AB-4525-AD48-434842982913}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA6848E2-FE96-4154-A484-F14DCF03A0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6848E2-FE96-4154-A484-F14DCF03A0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6848E2-FE96-4154-A484-F14DCF03A0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6848E2-FE96-4154-A484-F14DCF03A0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC06C3B-1A3C-4333-A620-D87D7E6F04A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC06C3B-1A3C-4333-A620-D87D7E6F04A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC06C3B-1A3C-4333-A620-D87D7E6F04A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC06C3B-1A3C-4333-A620-D87D7E6F04A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4FDDC7-28CD-4369-ABBB-78026F7F02FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4FDDC7-28CD-4369-ABBB-78026F7F02FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4FDDC7-28CD-4369-ABBB-78026F7F02FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4FDDC7-28CD-4369-ABBB-78026F7F02FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17B5B60-23E0-4E48-B3A7-CB5B2C8DDE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17B5B60-23E0-4E48-B3A7-CB5B2C8DDE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17B5B60-23E0-4E48-B3A7-CB5B2C8DDE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17B5B60-23E0-4E48-B3A7-CB5B2C8DDE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9DD87CC-DCE6-44F2-9655-0FD3458035B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DD87CC-DCE6-44F2-9655-0FD3458035B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DD87CC-DCE6-44F2-9655-0FD3458035B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DD87CC-DCE6-44F2-9655-0FD3458035B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2EE28E-14C1-4976-B138-E704CFF781C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2EE28E-14C1-4976-B138-E704CFF781C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2EE28E-14C1-4976-B138-E704CFF781C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2EE28E-14C1-4976-B138-E704CFF781C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0F5A8B-D563-4569-8EC7-00E5742FA69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0F5A8B-D563-4569-8EC7-00E5742FA69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0F5A8B-D563-4569-8EC7-00E5742FA69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0F5A8B-D563-4569-8EC7-00E5742FA69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4C9C7A-4695-4BD3-AF9B-F182F01F23F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4C9C7A-4695-4BD3-AF9B-F182F01F23F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4C9C7A-4695-4BD3-AF9B-F182F01F23F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4C9C7A-4695-4BD3-AF9B-F182F01F23F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0A89E5B-C8AB-4525-AD48-434842982913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A89E5B-C8AB-4525-AD48-434842982913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A89E5B-C8AB-4525-AD48-434842982913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A89E5B-C8AB-4525-AD48-434842982913}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA6848E2-FE96-4154-A484-F14DCF03A0C4} = {69FDCC2C-2C0F-49C7-9830-B0938534ECE1}
+		{FFC06C3B-1A3C-4333-A620-D87D7E6F04A3} = {69FDCC2C-2C0F-49C7-9830-B0938534ECE1}
+		{4D4FDDC7-28CD-4369-ABBB-78026F7F02FE} = {69FDCC2C-2C0F-49C7-9830-B0938534ECE1}
+		{E17B5B60-23E0-4E48-B3A7-CB5B2C8DDE04} = {69FDCC2C-2C0F-49C7-9830-B0938534ECE1}
+		{B9DD87CC-DCE6-44F2-9655-0FD3458035B2} = {69FDCC2C-2C0F-49C7-9830-B0938534ECE1}
+		{9E2EE28E-14C1-4976-B138-E704CFF781C2} = {015B6184-1371-4637-A77D-AF688AC10383}
+		{ED0F5A8B-D563-4569-8EC7-00E5742FA69C} = {015B6184-1371-4637-A77D-AF688AC10383}
+		{7A4C9C7A-4695-4BD3-AF9B-F182F01F23F6} = {015B6184-1371-4637-A77D-AF688AC10383}
+		{F0A89E5B-C8AB-4525-AD48-434842982913} = {015B6184-1371-4637-A77D-AF688AC10383}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9EA0D50-4383-4341-A5CD-26A50A560D23}
+	EndGlobalSection
+EndGlobal
